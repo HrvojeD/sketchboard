@@ -6,9 +6,17 @@
     </head>
     
     <body>
-        <div id="container">
-
+        <div id="main">
+            <h1 id="title">Sketchbook</h1>
+            <div id="container"></div>
         </div>
+
+        <div id="options">
+            <input id="blackRadio" type="radio" name="color">Black
+            <input id="rainbowRadio" type="radio" name="color">Rainbow
+            <button id="resetButton" onclick="resetGrid()">Reset</button>
+        </div>
+        
         <script src="script.js"></script>
     </body>
 </html>
